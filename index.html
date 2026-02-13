@@ -1,23 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scout Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #333;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scout Website</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h1 {
+      color: #2e8b57;
+      text-align: center;
+    }
+
+    .btn {
+      position: absolute;
+      bottom: 40px;
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #2e8b57;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #246b45;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Welcome to Scout Website</h1>
-    <p>This is your starting point for building an amazing website!</p>
+
+  <h1>Welcome to Our Scout Group</h1>
+
+  <button class="btn" onclick="location.href='recipes.html'">
+    View Food Recipes
+  </button>
+
 </body>
 </html>
