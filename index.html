@@ -23,8 +23,6 @@
     }
 
     .btn {
-      position: absolute;
-      bottom: 50px;
       padding: 15px 30px;
       font-size: 18px;
       background-color: #2e7d32;
@@ -32,6 +30,11 @@
       border: none;
       border-radius: 10px;
       cursor: pointer;
+      margin: 10px 0;
+    }
+
+    .btn:hover {
+      background-color: #1b5e20;
     }
   </style>
 </head>
@@ -40,11 +43,10 @@
 
   <h1>🌲 Troupe Èclereuse Svp 🌲</h1>
 
-  <button class="btn" onclick="location.href='recipes.html'">
-    Cousinier
-  </button>
-
-<br><br>
+  <div>
+    <button class="btn" onclick="location.href='recipes.html'">
+      Cousinier
+    </button>
 
     <button class="btn" onclick="location.href='animateur.html'">
       Animateur Songs
